@@ -63,6 +63,7 @@ export default function Index() {
         <Dome photoIndex={photoIndex} setPhotoIndex={setPhotoIndex} />
         {/* {useXR.getState().mode === 'none' ? <Hud setPhotoIndex={setPhotoIndex} setOrbitControl={setOrbitControl} /> : ''} */}
         {/* <UI /> */}
+
         <Hud setPhotoIndex={setPhotoIndex} setOrbitControl={setOrbitControl} />
         {/* </ImmersiveSessionOrigin> */}
       </XRCanvas>
