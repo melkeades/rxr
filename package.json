@@ -15,10 +15,16 @@
     "@coconut-xr/xmaterials": "^0.0.3",
     "@react-three/drei": "^9.88.2",
     "@react-three/fiber": "^8.14.5",
+    "@studio-freight/lenis": "^1.0.27",
     "@vitejs/plugin-basic-ssl": "^1.0.1",
+    "global": "^4.4.0",
+    "gsap": "^3.12.2",
+    "hls.js": "^1.4.12",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "three": "^0.157.0"
+    "stylus": "^0.60.0",
+    "three": "^0.157.0",
+    "zustand": "https://pkg.csb.dev/pmndrs/zustand/commit/439a73b0/zustand/_pkg.tgz"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",

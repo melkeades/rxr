@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 1,
+            "activePatchIndex": 4,
             "patches": [
                 {
                     "date": 1697436690549,
@@ -12,6 +12,18 @@
                 {
                     "date": 1697437156330,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n import { useState, useEffect } from 'react'\r\n import * as THREE from 'three'\r\n \r\n export default function Dome({ photoIndex, setPhotoIndex }) {\r\n-  const imgUrl = ['/360/1.webp', '/360/2.webp']\r\n+  const imgUrl = ['/360/1.webp', '/360/2.webp', '/360/3.webp', '/360/4.webp', '/360/5.webp']\r\n   const texture = useTexture(imgUrl)\r\n   const [photo, setPhoto] = useState(texture[photoIndex])\r\n \r\n   texture.forEach((item) => {\r\n"
+                },
+                {
+                    "date": 1698180461559,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,10 @@\n import { useState, useEffect } from 'react'\r\n import * as THREE from 'three'\r\n \r\n export default function Dome({ photoIndex, setPhotoIndex }) {\r\n-  const imgUrl = ['/360/1.webp', '/360/2.webp', '/360/3.webp', '/360/4.webp', '/360/5.webp']\r\n+  const imgUrl = ['/360/1.webp' ]\r\n+  // const imgUrl = ['/360/1.webp', '/360/2.webp', '/360/3.webp', '/360/4.webp', '/360/5.webp']\r\n   const texture = useTexture(imgUrl)\r\n   const [photo, setPhoto] = useState(texture[photoIndex])\r\n \r\n   texture.forEach((item) => {\r\n"
+                },
+                {
+                    "date": 1698194899021,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n import { useState, useEffect } from 'react'\r\n import * as THREE from 'three'\r\n \r\n export default function Dome({ photoIndex, setPhotoIndex }) {\r\n-  const imgUrl = ['/360/1.webp']\r\n+  const imgUrl = ['/360/1.webp', '/360/2.webp']\r\n   // const imgUrl = ['/360/1.webp', '/360/2.webp', '/360/3.webp', '/360/4.webp', '/360/5.webp']\r\n   const texture = useTexture(imgUrl)\r\n   const [photo, setPhoto] = useState(texture[photoIndex])\r\n \r\n"
+                },
+                {
+                    "date": 1698233013649,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n import { useState, useEffect } from 'react'\r\n import * as THREE from 'three'\r\n \r\n export default function Dome({ photoIndex, setPhotoIndex }) {\r\n-  const imgUrl = ['/360/1.webp', '/360/2.webp']\r\n+  const imgUrl = ['/360/w1.webp', '/360/w2.webp']\r\n   // const imgUrl = ['/360/1.webp', '/360/2.webp', '/360/3.webp', '/360/4.webp', '/360/5.webp']\r\n   const texture = useTexture(imgUrl)\r\n   const [photo, setPhoto] = useState(texture[photoIndex])\r\n \r\n"
                 }
             ],
             "date": 1697436690549,

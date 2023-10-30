@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -7,7 +7,39 @@
     <title>Vite + React</title>
   </head>
   <body>
-    <div id="root"></div>
+    <div class="page-wrapper">
+      <div class="init-ui">
+        <img src="init-ui-top.png" alt="" class="ui__img ui__img--top" />
+        <img src="init-ui-bottom.png" alt="" class="ui__img ui__img--bottom" />
+      </div>
+      <div class="ui-wrap">
+        <div class="ui">
+          <div class="top-ui">
+            <img class="logo" src="logo.png" alt="" />
+            <img class="title" src="title.png" alt="" />
+            <div class="ui__nav">
+              <div class="btn"><img src="/Frame-1.svg" alt="" class="svg" /></div>
+              <div class="btn"><img src="/Frame.svg" alt="" class="svg" /></div>
+            </div>
+          </div>
+          <div class="bottom-ui">
+            <div class="btn btn--nav"><img src="/ico_nav.svg" alt="" class="svg" /></div>
+            <div class="ui__nav">
+              <div class="btn btn--prev"><img src="/left.svg" alt="" class="svg" /></div>
+              <div class="btn btn--pause"><img src="/pause.svg" alt="" class="svg" /></div>
+              <div class="btn btn--next"><img src="/right.svg" alt="" class="svg" /></div>
+            </div>
+            <div class="btn btn--vol"><img src="/ico_vol.svg" alt="" class="svg" /></div>
+          </div>
+          <!-- <img src="ui-bottom2.png" alt="" class="ui__img ui__img--bottom" /> -->
+        </div>
+      </div>
+      <div class="app-wrapper">
+        <div class="bw-dim"></div>
+        <div class="grad-dim"></div>
+        <div id="app"></div>
+      </div>
+    </div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
