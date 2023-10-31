@@ -15,12 +15,12 @@ const sel = (e) => document.querySelector(e)
 
 const mediaPath = '/360/'
 const mediaDb = [
-  { type: 'video', src: 'w5.mp4', thumb: 'w5.jpg', name: 'Moment Name a' },
-  { type: 'video', src: 'w6.mp4', thumb: 'w6.jpg', name: 'Moment Name a' },
+  { type: 'video', src: 'v1.mp4', thumb: 'v1.jpg', name: 'Moment Name a' },
+  { type: 'video', src: 'v2.mp4', thumb: 'v2.jpg', name: 'Moment Name a' },
   { type: 'image', src: 'w1.webp', thumb: '', name: 'Moment Name b' },
-  { type: 'image', src: 'w2.webp', thumb: '', name: 'Moment Name b' },
+  // { type: 'image', src: 'w2.webp', thumb: '', name: 'Moment Name b' },
   { type: 'image', src: 'w3.webp', thumb: '', name: 'Moment Name c' },
-  { type: 'image', src: 'w4.webp', thumb: '', name: 'Moment Name c' },
+  // { type: 'image', src: 'w4.webp', thumb: '', name: 'Moment Name c' },
 ]
 
 const sessionOptions = {
